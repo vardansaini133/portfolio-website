@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="vss.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <nav class="nav" aria-label="Main navigation">
+            <a href="#hero" class="nav_logo">&lt;<span>[Vardan Saini]</span>/&gt;</a>
+            <ul class="nav_links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#experirnce">experince</a></li>
+                <li><a href="#contact" class="nav_cta">contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- hero -->
+        <section id="hero" class="hero">
+            <p class="hero_greeting">Hi, My name is</p>
+            <h1 class="hero_title">[Vardan Saini].</h1>
+            <h2 class="hero_subtitle">I build thing for the web</h2>
+            <p class="hero_description">
+                I'm a full-stack devloper based in [muzaffarnagar], specializing in building
+                (and occasionally degigning) exceptional digital expreinces.
+                Currently focused on creating accessible,human-centered product at
+                [Company].
+            </p>
+            <div class="hero_action">
+                <a href="#project" class="btn btn--primary"> View my work</a>
+                <a href="#contact" class="btn btn--ghost"> get in touch</a>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <h2 class="section_title"><span>01.</span>About Me</h2>
+            <div class="about">
+                <div class="about_text">
+                    <p>
+                        Hello! I'm<strong>[Vardan saini]</strong>, a devloper who enjoys
+                        turning complex
+                        problrm into simple, beautiful interface. my journey started back
+                        in [2025-26]
+                        when I tried to customize a blog theme-and I've been hooked ever
+                        since.
+                    </p>
+                    <p>
+                        Fast forword to today: I've had the privillege of working at
+                        <a href="#" class="link">[Company C]</a>.My main focus these
+                        days is building
+                        performate, accessibel web apps at <a href="#" class="link">[Current Company]</a>
+                    </p>
+                    <ul class="about_facts">
+                        <li>full-stack devlopment with[javaScript] &amp; [Python]</li>
+                        <li>cloud-native app on [AWS / GCP]</li>
+                        <li>Open-source contributor &amp; tech community volunteer</li>
+                    </ul>
+                </div>
+                <div class="about_avatar" role="img" aria-label="Stylized-monogram avatar for[Vardan saini]">
+                    <span>[Vardan saini]</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- skill -->
+         ><section id="skills" class="section section--alt">
+            <h2 class="section_title"><span>02.</span>Skills</h2>
+            <div class="Skill-grid">
+                <article></article>
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML&amp;CSS</li>
+                    <li>JavaScript(ES2023)</li>
+                    <li>[React/Vue/Svelte]</li>
+                    <li>Tailwind &amp; Sacc</li>
+                </ul>
+                </article>
+                <article class="Skill-card">
+                    <h3>Bckend</h3>
+                    <ul>
+                        <li>Node.js &amp; Express</li>
+                        <li>[Python/Django]</li>
+                        <li>PostgreSQL&amp; MongoDB</li>
+                        <li>REST&amp; GraphQL APIs</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Tooling</h3>
+                    <ul>
+                        <li>Git &amp; Github</li>
+                        <li>Docker &amp; CI/CD</li>
+                        <li>Vitest &amp; Playwright</li>
+                        <li>[AWS/Vercel]</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Practices</h3>
+                    <ul>
+                        <li>Responsive &amp; accessible design</li>
+                        <li>Agile &amp; pair programming</li>
+                        <li>Code review &amp; mentorning</li>
+                        <li>Technical writing</li>
+                    </ul>
+                </article>
+            </div>
+         </section>
+
+         <!-- Project -->
+          <section id="Projects" class="section">
+            <h2 class="section_title"><span>03.</span>Project</h2>
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <div class="project-card_top">
+                        <span class="project-card_folder" aria-hidden="true">📁</span>
+                        <div class="project-card_links">
+                            <a href="#" aria-label="[project one] GitHub repository(opens in a new tab)">GitHub</a>
+                        </div>
+                    </div>
+                    <h3 class="project-card_title">[Project One]</h3>
+                    <p class="project-card_description">
+                        A web app that[does something useful].Built with a focus on
+                        preformance,
+                        offline support, and a clean component architecture.
+                    </p>
+                    <ul class="project-card_tags">
+                        <li>[React]</li>
+                        <li>[TypeScript]</li>
+                        <li>[Node.js]</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card_top">
+                        <span class="project-card_folder" aria-hidden="true">📁</span>
+                        <div class="project-card_links">
+                        <a href="#" aria-label="[Project Two]GitHub repository(opens in a new tab)">GitHub</a>
+                        <a href="#" aria-label="[Project Two]live demo (opens in a new tab)">Live Demo</a>
+                        </div>
+                    </div>
+                
+                <h3 class="project-card_title">[Project Two]</h3>
+                <p class="project-card_description">
+                    A data dashboard that [visualizes something meaningful]with interactive
+                    charts, filters,and role-based access control.
+                </p>
+                <ul class="project-card_tags">
+                    <li>[Vue]</li>
+                    <li>[D3.js]</li>
+                    <li>[PostgreSQl]</li>
+                </ul>
+                </article>
+
+                <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder" aria-hidden="true">📁</span>
+            <div class="project-card__links">
+              <a href="#" aria-label="[Project Three] GitHub repository (opens in a new tab)">GitHub</a>
+              <a href="#" aria-label="[Project Three] live demo (opens in a new tab)">Live Demo</a>
+            </div>
+          </div>
+          <h3 class="project-card__title">[Project Three]</h3>
+          <p class="project-card__description">
+            A mobile-first [e-commerce / booking] experience with serverless checkout,
+            full test coverage, and a 95+ Lighthouse score.
+          </p>
+          <ul class="project-card__tags">
+            <li>[Next.js]</li>
+            <li>[Stripe]</li>
+            <li>[Playwright]</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder" aria-hidden="true">📁</span>
+            <div class="project-card__links">
+              <a href="#" aria-label="[Project Four] GitHub repository (opens in a new tab)">GitHub</a>
+              <a href="#" aria-label="[Project Four] live demo (opens in a new tab)">Live Demo</a>
+            </div>
+          </div>
+          <h3 class="project-card__title">[Project Four]</h3>
+          <p class="project-card__description">
+            An open-source CLI tool that [automates a repetitive task], published on
+            [npm] and used by [thousands of] developers.
+          </p>
+          <ul class="project-card__tags">
+            <li>[Node.js]</li>
+            <li>[CLI]</li>
+            <li>[Open Source]</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder" aria-hidden="true">📁</span>
+            <div class="project-card__links">
+              <a href="#" aria-label="[Project Five] GitHub repository (opens in a new tab)">GitHub</a>
+              <a href="#" aria-label="[Project Five] live demo (opens in a new tab)">Live Demo</a>
+            </div>
+          </div>
+          <h3 class="project-card__title">[Project Five]</h3>
+          <p class="project-card__description">
+            A real-time collaboration app with [WebSockets], optimistic UI updates,
+            and end-to-end encryption for shared notes.
+          </p>
+          <ul class="project-card__tags">
+            <li>[Svelte]</li>
+            <li>[WebSockets]</li>
+            <li>[Redis]</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__folder" aria-hidden="true">📁</span>
+            <div class="project-card__links">
+              <a href="#" aria-label="[Project Six] GitHub repository (opens in a new tab)">GitHub</a>
+              <a href="#" aria-label="[Project Six] live demo (opens in a new tab)">Live Demo</a>
+            </div>
+          </div>
+          <h3 class="project-card__title">[Project Six]</h3>
+          <p class="project-card__description">
+            A machine-learning powered [recommendation engine] served behind a fast
+            REST API, with a simple admin UI for tuning models.
+          </p>
+          <ul class="project-card__tags">
+            <li>[Python]</li>
+            <li>[FastAPI]</li>
+            <li>[Docker]</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="section section--alt">
+      <h2 class="section__title"><span>04.</span> Experience</h2>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__content">
+            <h3>Senior Software Engineer @ [Company A]</h3>
+            <p class="timeline__date">[Jan 2024] — Present</p>
+            <ul>
+              <li>Lead development of [a customer-facing product] used by [X,000+] users.</li>
+              <li>Reduced page load time by [40%] through code-splitting and caching.</li>
+              <li>Mentor [3] junior engineers and run the frontend guild.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__content">
+            <h3>Software Engineer @ [Company B]</h3>
+            <p class="timeline__date">[Jun 2021] — [Dec 2023]</p>
+            <ul>
+              <li>Built and maintained [REST APIs] powering [core business features].</li>
+              <li>Shipped a design system adopted across [4] product teams.</li>
+              <li>Introduced automated testing, cutting regression bugs by [30%].</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__content">
+            <h3>Junior Developer @ [Company C]</h3>
+            <p class="timeline__date">[Aug 2019] — [May 2021]</p>
+            <ul>
+              <li>Developed responsive marketing sites and internal tools.</li>
+              <li>Collaborated with designers to implement pixel-perfect UIs.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__content">
+            <h3>B.Sc. in Computer Science @ [University]</h3>
+            <p class="timeline__date">[2015] — [2019]</p>
+            <ul>
+              <li>Graduated with [honors]. Coursework in algorithms, databases, and HCI.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact">
+      <h2 class="section__title"><span>05.</span> Get In Touch</h2>
+      <p class="contact__blurb">
+        My inbox is always open — whether you have a project in mind, a role to discuss,
+        or just want to say hi. I'll do my best to get back to you!
+      </p>
+      <form class="contact-form" action="#" method="post">
+        <div class="contact-form__row">
+          <label for="name">Name
+            <input type="text" id="name" name="name" placeholder="[Your Name]" autocomplete="name" required />
+          </label>
+          <label for="email">Email
+            <input type="email" id="email" name="email" placeholder="[you@example.com]" autocomplete="email" required />
+          </label>
+        </div>
+        <label for="message">Message
+          <textarea id="message" name="message" rows="5" placeholder="[Tell me about your project...]" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary">Send message</button>
+        <p class="contact-form__note">This form is a visual placeholder — wire it to your backend or a service like [Formspree].</p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p class="footer__credit">Designed &amp; built by [Your Name]</p>
+    <ul class="footer__social">
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">X / Twitter</a></li>
+      <li><a href="#">[Email]</a></li>
+    </ul>
+    <p class="footer__copy">© [2026] [Your Name]. All rights reserved.</p>
+  </footer>
+</body>
+<script src="first.js"></script>
+
+</html>
